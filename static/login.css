@@ -1,0 +1,82 @@
+body {
+  	background-color: #fff2d8 ; /* Light shade of pink */
+  	font-family: 'Arial', sans-serif;
+  	margin: 0;
+  	padding: 0;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	height: 100vh;
+}
+		
+.login-container {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	height: 100%;
+  	width: 100%;
+}
+
+		/* Login box styling */
+.login-box {
+  background-color: #2C3E50; /* Dark background matching theme */
+  padding: 30px;
+  border: 3px solid #333; /* Thick black border */
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Good box shadow */
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+.login-box h2 {
+margin-bottom: 20px;
+color: #FFFFFF; /* Dark font color */
+}
+
+/* Form input fields */
+.login-box input {
+  width: calc(100% - 20px);
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #333; /* Thick border matching box */
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+  color: black;
+/*  background-color: #2C3E50;*/
+}
+
+.login-box label{
+	color: #FFFFFF;
+}
+
+.login-box .button {
+  width: 30%;
+  padding: 7px;
+  background-color: #5a463c ; /* Black variant for the button */
+  color: #FFFFFF;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box .button:hover {
+  background-color: #7c6255; /* Slightly lighter black for hover */
+}
+
+.extra{
+	color: FFFFFF;
+}
+.extra a{
+	text-decoration: none;
+	color: inherit;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.extra a:hover{
+ text-decoration: underline;
+ font-weight: normal;
+}

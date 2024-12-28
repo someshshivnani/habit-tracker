@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Habit Tracker | Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='login.css') }}">
+</head>
+<body>
+	<!-- <h1>Welcome,this is signup page</h1> -->
+	<main>
+	<div class="login-container">
+		<div class="login-box">
+			<h2>Sign Up</h2>
+			<form method="POST">
+				<label for="mail">E-mail</label>
+				<input type="email" name="email" id="mail" required />
+			
+				<label for="pass">Password </label>
+				<input type="password" name="password" id="pass" required />
+			
+				<input type="submit" class="button" value="Sign Up">
+			</form>
+		</div>	
+	</div>
+	<p class="extra"><a href="{{url_for('habits.login')}}">Login</a> Instead ?</p>
+	<main></main>
+</body>
+</html>

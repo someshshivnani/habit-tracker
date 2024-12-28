@@ -1,0 +1,10 @@
+{% extends 'base.html'%}
+
+{% block main_content %}
+	
+	<form method="POST" action="" class="form">
+		<label for="habit_usr" class="form_label">Enter your habits</label>
+<textarea class="form_input" name="habit" id="habit_usr" rows="3" placeholder="Enter your habit for tracking"></textarea>
+	<button type="submit" class="form_btn">Add</button>
+	</form>
+{% endblock %}
