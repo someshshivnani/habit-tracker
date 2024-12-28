@@ -12,7 +12,7 @@ def create_app():
 	# with open("config.json") as conf:
 	# 	params=json.load(conf)["params"]
 	load_dotenv()
-	db_uri=os.geten("MONGODB_URI")
+	db_uri=os.getenv("MONGODB_URI")
 	# db_conn=params["db_uri"]
 	client= MongoClient(db_conn)
 	app.db=client.habitrack
