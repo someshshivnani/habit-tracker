@@ -14,7 +14,7 @@ def create_app():
 	load_dotenv()
 	db_uri=os.getenv("MONGODB_URI")
 	# db_conn=params["db_uri"]
-	client= MongoClient(db_conn)
+	client= MongoClient(db_uri)
 	app.db=client.habitrack
 
 	app.register_blueprint(pages)
